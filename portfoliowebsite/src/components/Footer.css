@@ -1,0 +1,25 @@
+.contactWrapper{
+    display: grid;
+        place-items: center;
+        margin-bottom: 3rem;
+}
+.contactWrapper>h2{
+    font-size: 3rem;
+}
+.contactLinks{
+    display: flex;
+        gap: 2rem;
+}
+.contactLinks>a:hover{
+    text-decoration: none;
+    border-bottom:unset;
+    color: #ff9612;
+}
+
+#copyright{
+background-color: black;
+margin: 0;
+}
+#copyright>h3{
+    color: white;
+}

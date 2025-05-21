@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero-text {
+    position: relative;
+    z-index: 50;
+    font-family: 'Lato', sans-serif; /* Make sure to import Lato font */
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .highlighted-text {
+    color: #ff9612; /* example primary-700 color */
+  }
+  
+  /* Dark mode (optional) */
+  @media (prefers-color-scheme: dark) {
+    .highlighted-text {
+      color: #ff9612; /* example primary-300 color */
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 640px) {
+    .hero-text {
+      font-size: 36px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-text {
+      font-weight: 600;
+    }
+  }
+  

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heroImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroImage img{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description p{
+    text-align: center;
+    width: 50%;
+    font-style: italic;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: grey;
+}
+.gitlinkicons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+#skills .frontend{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+#skills .backend{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+#skills {
+    margin-top: 2rem;
+}
+.skillsheading {
+    font-size: 2.5rem;
+    
+}
+.skillsIcons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.skillsIcons span{
+    flex-basis: 17%;
+}
+.skillsIcons span{
+    flex-basis: 17%;
+}
+
+.imgicons{
+    width: 2.5vw;
+    height: auto;
+}
+.headingSkillsWrapper{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.quoteWrapper{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.quoteWrapper .quote{
+    color: grey;
+    font-style: italic;
+}
+
+.skillsUsed{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.projects>h2{
+    text-align: center;
+}
+
+  
+  .projects {
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .projectWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto auto 40px auto auto auto; 
+    gap: 2rem;
+    
+    align-items: start;
+  }
+  
+  
+  .card {
+    display: grid;
+    grid-row: span 1;
+    grid-template-rows: subgrid;
+    grid-row: span 5; /* Or however many rows you want to subgrid */
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  
+  
+  .card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+    grid-row: 1;
+  }
+  
+  .card h3 {
+    margin: 0;
+    grid-row: 3;
+  }
+  .card h4{
+    grid-row: 4;
+    margin: 0;
+  }
+  
+  .skillsUsed {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    gap: 0.5rem;
+    grid-row: 5;
+    margin-bottom: 0.75rem;
+    padding-right: 0;
+  }
+  
+  .imgicons {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgicons img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .card > a {
+    margin-top: 1rem;
+    align-self: flex-end;
+    display: flex;
+        justify-content: end;
+       
+  }
+  .card > a:hover{
+    border-bottom:unset;
+    color: #ff9612;
+  }
+  
+  .gitlinkicons>a:hover{
+    border-bottom:unset;
+    color: #ff9612;
+  }
+
+  @media (max-width: 450px) {
+    .heroImage img {
+      width: 60%;
+    }
+    .main{
+      margin: 0 auto;
+    }
+    .App {
+      padding: 1rem 2.5rem;
+    }
+    #root{
+      display: flex;
+    }
+    .description p {
+      width: 86%;
+    }
+    #skills .frontend{
+      width: unset;
+      grid-template-columns:1fr;
+    }
+    #skills .backend{
+      width: unset;
+      grid-template-columns:1fr;
+    }
+    .skillsIcons {
+      width: 100%;
+    }
+
+h3.logo {
+    font-size: 1.2rem;
+}
+  }
