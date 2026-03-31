@@ -120,6 +120,31 @@ const Main = () => {
         <h2>Projects</h2>
         <div className="projectWrapper" id="projectWrapper">
           <div className="card">
+  <img src="./projects/airesumeanalyzer.png" alt="AI Resume Analyzer" />
+  <h3>AI Resume Analyzer</h3>
+  <p>
+    An AI-powered resume analysis and optimization platform that evaluates ATS compatibility,
+    matches resumes against job descriptions, highlights missing keywords, and generates
+    improved resume content with actionable feedback.
+  </p>
+  <h4 style={{ fontWeight: "bold" }}>Technologies</h4>
+  <div className="skillsUsed">
+    <span className="imgicons"><img src="react.svg" alt="react icon" /></span>
+    <span className="imgicons"><img src="typescript.svg" alt="typescript icon" /></span>
+    <span className="imgicons"><img src="tailwindcss.svg" alt="tailwindcss icon" /></span>
+    <span className="imgicons"><img src="nodes.svg" alt="nodejs icon" /></span>
+    <span className="imgicons"><img src="express.svg" alt="express icon" /></span>
+    <span className="imgicons"><img src="openai.svg" alt="ai icon" /></span>
+    <span className="imgicons"><img src="supabase.svg" alt="supabase icon" /></span>
+    <span className="imgicons"><img src="github.svg" alt="github icon" /></span>
+    <span className="imgicons"><img src="vercel.svg" alt="vercel icon" /></span>
+    <span className="imgicons"><img src="render.svg" alt="render icon" /></span>
+  </div>
+  <a href="YOUR_AI_RESUME_ANALYZER_LINK" target="_blank" rel="noreferrer">
+    <FontAwesomeIcon icon={faUpRightFromSquare} />
+  </a>
+</div>
+          <div className="card">
             <img src="./projects/sportcrush.png" alt="sportcrush" />
             <h3>SportsCrush</h3>
             <p>SportsCrush lets you join, find sports club nearby you according to your prefrences.</p>
