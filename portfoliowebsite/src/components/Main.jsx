@@ -140,7 +140,7 @@ const Main = () => {
     <span className="imgicons"><img src="vercel.svg" alt="vercel icon" /></span>
     <span className="imgicons"><img src="render.svg" alt="render icon" /></span>
   </div>
-  <a href="YOUR_AI_RESUME_ANALYZER_LINK" target="_blank" rel="noreferrer">
+  <a href="https://ai-resume-analyzer-git-deployment-chitransh-nigams-projects.vercel.app?_vercel_share=Q9C24Q8pkVtWYmZJRZbArnNihpkAMptl" target="_blank" rel="noreferrer">
     <FontAwesomeIcon icon={faUpRightFromSquare} />
   </a>
 </div>
