@@ -255,4 +255,8 @@
   h3.logo {
     font-size: 1.2rem;
   }
+  .projectWrapper{
+    display: grid;
+    gap: 5rem;
+  }
 }
